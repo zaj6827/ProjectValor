@@ -11,8 +11,20 @@
   <body>
     <h1>HELLO WORLD</h1>
     <p>Testing styling scripts</p>
+    <div id="map"></div>
     <div class="">
       <p>exists</p>
     </div>
+    <script>
+      var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_YXiHomE9Mx5A2sBE7RG_q8357dCVNuM&callback=initMap"
+    async defer></script>
   </body>
 </html>
