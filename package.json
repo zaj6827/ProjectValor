@@ -1,0 +1,31 @@
+{
+  "name": "projectvalor",
+  "version": "1.0.0",
+  "description": "A tool for veterans in Washington State",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaj6827/ProjectValor.git"
+  },
+  "keywords": [
+    "VA",
+    "veterans",
+    "node",
+    "tool"
+  ],
+  "author": "Zachary Johnson, Ian Waites, Madeline Stevens, Kyle Richmond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaj6827/ProjectValor/issues"
+  },
+  "homepage": "https://github.com/zaj6827/ProjectValor#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pg": "^7.0.2"
+  }
+}
