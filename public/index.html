@@ -4,15 +4,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
   </head>
   <body>
+    <header>
+      <nav class="main-nav">
+        <ul>
+          <li class=>Home</li>
+          <li>Mission</li>
+          <li>Resources</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </header>
     <h1>HELLO WORLD</h1>
     <p>Testing styling scripts</p>
+    <div id="map"></div>
     <div class="">
       <p>exists</p>
     </div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="public/scripts/vendor/src/anijs.js"></script>
+    <script src="https://maps.googleapis.com/maps/&callback=initMap" async defer></script>
   </body>
 </html>
