@@ -1,0 +1,236 @@
+[
+ {
+   "county": "Adams,WA",
+   "vetPop2015": "600",
+   "vetPop2016": "594",
+   "vetPop2017": "587"
+ },
+ {
+   "county": "Asotin,WA",
+   "vetPop2015": "2,385",
+   "vetPop2016": "2,343",
+   "vetPop2017": "2,299"
+ },
+ {
+   "county": "Benton,WA",
+   "vetPop2015": "14,485",
+   "vetPop2016": "14,338",
+   "vetPop2017": "14,181"
+ },
+ {
+   "county": "Chelan,WA",
+   "vetPop2015": "5,167",
+   "vetPop2016": "5,046",
+   "vetPop2017": "4,925"
+ },
+ {
+   "county": "Clallam,WA",
+   "vetPop2015": "8,986",
+   "vetPop2016": "8,853",
+   "vetPop2017": "8,715"
+ },
+ {
+   "county": "Clark,WA",
+   "vetPop2015": "36,455",
+   "vetPop2016": "35,986",
+   "vetPop2017": "35,503"
+ },
+ {
+   "county": "Columbia,WA",
+   "vetPop2015": "466",
+   "vetPop2016": "459",
+   "vetPop2017": "451"
+ },
+ {
+   "county": "Cowlitz,WA",
+   "vetPop2015": "9,784",
+   "vetPop2016": "9,712",
+   "vetPop2017": "9,634"
+ },
+ {
+   "county": "Douglas,WA",
+   "vetPop2015": "3,012",
+   "vetPop2016": "2,971",
+   "vetPop2017": "2,927"
+ },
+ {
+   "county": "Ferry,WA",
+   "vetPop2015": "865",
+   "vetPop2016": "853",
+   "vetPop2017": "841"
+ },
+ {
+   "county": "Franklin,WA",
+   "vetPop2015": "3,617",
+   "vetPop2016": "3,616",
+   "vetPop2017": "3,613"
+ },
+ {
+   "county": "Garfield,WA",
+   "vetPop2015": "241",
+   "vetPop2016": "231",
+   "vetPop2017": "222"
+ },
+ {
+   "county": "Grant,WA",
+   "vetPop2015": "5,129",
+   "vetPop2016": "5,076",
+   "vetPop2017": "5,017"
+ },
+ {
+   "county": "Grays Harbor,WA",
+   "vetPop2015": "6,703",
+   "vetPop2016": "6,621",
+   "vetPop2017": "6,532"
+ },
+ {
+   "county": "Island,WA",
+   "vetPop2015": "13,277",
+   "vetPop2016": "13,455",
+   "vetPop2017": "13,596"
+ },
+ {
+   "county": "Jefferson,WA",
+   "vetPop2015": "4,085",
+   "vetPop2016": "4,006",
+   "vetPop2017": "3,924"
+ },
+ {
+   "county": "King,WA",
+   "vetPop2015": "114,484",
+   "vetPop2016": "110,484",
+   "vetPop2017": "106,627"
+ },
+ {
+   "county": "Kitsap,WA",
+   "vetPop2015": "36,953",
+   "vetPop2016": "37,086",
+   "vetPop2017": "37,137"
+ },
+ {
+   "county": "Kittitas,WA",
+   "vetPop2015": "3,060",
+   "vetPop2016": "3,000",
+   "vetPop2017": "2,939"
+ },
+ {
+   "county": "Klickitat,WA",
+   "vetPop2015": "2,010",
+   "vetPop2016": "2,011",
+   "vetPop2017": "2,009"
+ },
+ {
+   "county": "Lewis,WA",
+   "vetPop2015": "8,131",
+   "vetPop2016": "8,023",
+   "vetPop2017": "7,908"
+ },
+ {
+   "county": "Lincoln,WA",
+   "vetPop2015": "1,242",
+   "vetPop2016": "1,222",
+   "vetPop2017": "1,201"
+ },
+ {
+   "county": "Mason,WA",
+   "vetPop2015": "7,783",
+   "vetPop2016": "7,759",
+   "vetPop2017": "7,723"
+ },
+ {
+   "county": "Okanogan,WA",
+   "vetPop2015": "3,519",
+   "vetPop2016": "3,456",
+   "vetPop2017": "3,391"
+ },
+ {
+   "county": "Pacific,WA",
+   "vetPop2015": "2,696",
+   "vetPop2016": "2,637",
+   "vetPop2017": "2,580"
+ },
+ {
+   "county": "Pend Oreille,WA",
+   "vetPop2015": "1,635",
+   "vetPop2016": "1,606",
+   "vetPop2017": "1,575"
+ },
+ {
+   "county": "Pierce,WA",
+   "vetPop2015": "90,720",
+   "vetPop2016": "90,934",
+   "vetPop2017": "91,002"
+ },
+ {
+   "county": "San Juan,WA",
+   "vetPop2015": "1,578",
+   "vetPop2016": "1,535",
+   "vetPop2017": "1,491"
+ },
+ {
+   "county": "Skagit,WA",
+   "vetPop2015": "11,284",
+   "vetPop2016": "11,073",
+   "vetPop2017": "10,861"
+ },
+ {
+   "county": "Skamania,WA",
+   "vetPop2015": "1,193",
+   "vetPop2016": "1,188",
+   "vetPop2017": "1,182"
+ },
+ {
+   "county": "Snohomish,WA",
+   "vetPop2015": "56,041",
+   "vetPop2016": "55,123",
+   "vetPop2017": "54,202"
+ },
+ {
+   "county": "Spokane,WA",
+   "vetPop2015": "45,272",
+   "vetPop2016": "44,671",
+   "vetPop2017": "44,065"
+ },
+ {
+   "county": "Stevens,WA",
+   "vetPop2015": "5,253",
+   "vetPop2016": "5,173",
+   "vetPop2017": "5,090"
+ },
+ {
+   "county": "Thurston,WA",
+   "vetPop2015": "31,764",
+   "vetPop2016": "32,076",
+   "vetPop2017": "32,343"
+ },
+ {
+   "county": "Wahkiakum,WA",
+   "vetPop2015": "474",
+   "vetPop2016": "471",
+   "vetPop2017": "466"
+ },
+ {
+   "county": "Walla Walla,WA",
+   "vetPop2015": "4,733",
+   "vetPop2016": "4,600",
+   "vetPop2017": "4,471"
+ },
+ {
+   "county": "Whatcom,WA",
+   "vetPop2015": "13,994",
+   "vetPop2016": "13,785",
+   "vetPop2017": "13,570"
+ },
+ {
+   "county": "Whitman,WA",
+   "vetPop2015": "2,338",
+   "vetPop2016": "2,298",
+   "vetPop2017": "2,258"
+ },
+ {
+   "county": "Yakima,WA",
+   "vetPop2015": "13,714",
+   "vetPop2016": "13,428",
+   "vetPop2017": "13,143"
+ }
+]
