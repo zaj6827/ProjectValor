@@ -5,10 +5,53 @@ html, body {
   padding: 0;
 }
 
-#map {
-  z-index: -1;
+/*------ Removing styles from links ------*/
+
+a {
+  text-decoration: none;
+  color: #080706;
+}
+
+a:active {
+  text-decoration: none;
+  color: #080706;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #080706;
+}
+
+/*----------------------------------------*/
+
+/*-------- Controlling h2 styles ---------*/
+
+h2 {
+  font-size: 24pt;
+  font-family: helvetica;
+  color: #D1B280;
+  padding: 15px 0 15px 0;
+}
+
+/*----------------------------------------*/
+
+/*------ Main header space and font ------*/
+
+#main-header {
+  font-size: 120pt;
+  font-family: helvetica;
+}
+
+/*----------------------------------------*/
+
+#googft-mapCanvas {
+  z-index: ;
   margin-top: 500px;
   margin: 0 auto;
   height: 100%;
-  width: 50%;
+  max-width: 100%;
+}
+
+#googft-mapCanvas img {
+	max-width: none !important;
 }
