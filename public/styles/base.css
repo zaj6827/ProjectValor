@@ -44,7 +44,7 @@ h2 {
 
 /*----------------------------------------*/
 
-#map {
+#googft-mapCanvas {
   z-index: ;
   margin-top: 500px;
   margin: 0 auto;
@@ -52,6 +52,6 @@ h2 {
   max-width: 100%;
 }
 
-#map img {
+#googft-mapCanvas img {
 	max-width: none !important;
 }
