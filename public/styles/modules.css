@@ -1,3 +1,53 @@
 /*div {
   background-color: green;
 }*/
+
+* {
+  border: 1px solid orange;
+}
+
+#nav-header {
+  height: 75px;
+  width: 100%;
+  background-color: #594d46;
+  margin-bottom: 50px;
+  position: fixed;
+}
+
+.main-nav {
+  float: right;
+  margin-right: 15px;
+}
+
+.nav-li {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  margin: 15px 1.5px 15px 1.5px;
+  color: #EFEFEF;
+  font-family: helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.nav-li:hover {
+  background-color: #D1b280;
+  transition: 500ms;
+}
+
+main {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 960px;
+  height: 100%;
+}
+
+#center {
+  margin: 0 auto;
+}
+
+#main-header h1{
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
