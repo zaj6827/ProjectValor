@@ -11,32 +11,40 @@
     <link rel="stylesheet" href="styles/modules.css">
   </head>
   <body>
-    <header>
+    <header id="nav-header">
       <nav class="main-nav">
-        <ul>
-          <li class=>Home</li>
-          <li>Mission</li>
-          <li>Resources</li>
-          <li>About</li>
+        <ul id="nav-ul">
+          <li class="nav-li">Home</li>
+          <li class="nav-li">Mission</li>
+          <li class="nav-li">Resources</li>
+          <li class="nav-li">About</li>
         </ul>
       </nav>
     </header>
-    <h1>HELLO WORLD</h1>
-    <p>Testing styling scripts</p>
-    <div id="map"></div>
-    <div class="">
-      <p>exists</p>
-    </div>
+    <main>
+      <div id="center">
+      <header id="main-header">
+        <h1>HELLO WORLD</h1>
+      </header>
+      </div>
+      <p>Testing styling scripts</p>
+      <div class="">
+        <p>exists</p>
+      </div>
+      <div id="map"></div>
+    </main>
+
     <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 47.7511, lng: -120.7401},
+        zoom: 8
+      });
+    }
     </script>
-    <script src="public/scripts/vendor/src/anijs.js"></script>
-    <script src="https://maps.googleapis.com/maps/js?key=AIzaSyA_YXiHomE9Mx5A2sBE7RG_q8357d&callback=initMap" async defer></script>
+    <script src="scripts/vendor/src/anijs.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCevFYL_Vwt5ozG8xopVVdQogrNe2QIkTU&callback=initMap"
+    async defer></script>
   </body>
 </html>
