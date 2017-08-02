@@ -6,8 +6,9 @@ const bodyParser = require('body-parser');
 const pg = require('pg')
 const PORT= process.env.port || 3000;
 const app = express();
-const conString = 'postgres://localhost:5432/projectvalor ';
+const conString = process.env.DATABASE_URL;
 const client =  new pg.Client(conString);
+
 client.connect();
 client.on('error', err => console.error(err));
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
