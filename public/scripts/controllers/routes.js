@@ -1,1 +1,7 @@
-//download page js! it isn't a dependency yet.
+'use strict';
+
+var app = app || {};
+
+page('about', app.aboutController.initAboutController);
+
+page();

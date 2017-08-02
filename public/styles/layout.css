@@ -1,3 +1,53 @@
+/*#080706  “Black Steel”
+
+#EFEFEF  “Paper”
+
+#D1B280  “Gold Leaf”
+
+#594D46  “Silver”*/
+
 p {
-  color: orange;
+  color: black;
+  font-family: helvetica;
+}
+
+
+
+/* ------------About us styling--------------*/
+
+#about {
+  width: 90%;
+  margin: 2% auto;
+  border-radius:
+
+}
+
+.team img {
+  display: inline;
+
+}
+
+.team div {
+  margin: 0 auto;
+  height:
+}
+
+.blurb {
+
+}
+
+.blurb p {
+ display: inline;
+ font-family: sans-serif;
+}
+
+.blurb span {
+  font-size: 2em;
+  display: block;
+  font-family: sans-serif;
+}
+
+i {
+  color: black;
+
 }
