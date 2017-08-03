@@ -16,24 +16,24 @@ p {
 }
 
 /* ------------About us styling by maddy--------------*/
-
+/*
 #about {
   width: 90%;
   margin: 2% auto;
   border-radius:
 
 }
-
+/**/
 .team img {
   display: block;
   width: 15%;
   height: auto;
-  float: left;
+  /*float: left;*/
 
 }
-
+/*
 .team div {
-  margin: 0 auto;
+  margin-right: 30ems;
   height:
 }
 
@@ -41,7 +41,7 @@ p {
   padding-top: 10%;
   padding-left: 30%;
 }
-
+/**/
 .blurb p {
  display: inline;
  font-family: sans-serif;
@@ -52,8 +52,9 @@ p {
   font-size: 2em;
   display: block;
   font-family: sans-serif;
+  color: #B3C100;
 }
-
+/*
 .socialmedia ul li {
   list-style-type: none;
   float: left;
@@ -67,4 +68,4 @@ p {
   margin-right: 1px;
   padding-right: 5%;
 
-}
+}*/
