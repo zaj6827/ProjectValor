@@ -13,7 +13,7 @@ p {
 
 
 
-/* ------------About us styling--------------*/
+/* ------------About us styling by maddy--------------*/
 
 #about {
   width: 90%;
@@ -33,12 +33,15 @@ p {
 }
 
 .blurb {
+  padding-top: 10%;
+  padding-left: 30%;
 
 }
 
 .blurb p {
  display: inline;
  font-family: sans-serif;
+
 }
 
 .blurb span {
@@ -47,7 +50,17 @@ p {
   font-family: sans-serif;
 }
 
-i {
-  color: black;
+.socialmedia ul li {
+  list-style-type: none;
+  float: left;
+}
 
+.socialmedia ul li a {
+  font-size: 25px;;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 15%;
+  padding-left: 5%;
 }
