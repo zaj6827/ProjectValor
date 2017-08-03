@@ -29,6 +29,11 @@ div#header-logo img {
   border: 1px solid black;
 }
 
+.icon-menu {
+  font-size: 32px !important;
+  float: right;
+}
+
 .main-nav {
   float: right;
   margin-right: 15px;
@@ -65,38 +70,26 @@ div#header-logo img {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .nav-mobile {
-		display:block;
-	}
-	.main-nav {
-		width:100%;
-		padding:40px 0 0;
-	}
-	.nav-ul {
-		display:none;
-	}
-	.nav-li {
-		width:100%;
-		float:none;
-	}
-	.nav-li a {
-		background:#34495E;
-		padding:10px;
-	}
-	.nav-li:first-child a {
-		border-radius:5px 0 0;
-	}
-	.nav-li:last-child a {
-		border-radius:0 0 5px 5px;
-	}
-	.nav-active {
-		display:block;
-	}
-	.nav-mobile-open {
-		border-radius:5px 5px 0 0;
-		-webkit-border-radius:5px 5px 0 0;
-		-moz-border-radius:5px 5px 0 0;
-	}
+  .icon-menu {
+    display: none;
+  }
+
+  .main-nav {
+    padding: .2em .2em .2em 2em;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav ul li {
+    display: inline;
+    border-bottom: none;
+  }
+
+  .main-nav ul li:hover a {
+    color: #29506D;
+  }
 }
 
 
@@ -121,6 +114,23 @@ div#mission-section {
   background-color: #EFEFEF;
 }
 
+div#resources-section {
+  width: 100%;
+  background-color: #EFEFEF;
+}
+
+div.para1, .para2, .para3{
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #B3C100;
+  font-size: 18pt;
+  font-family: sans-serif;
+}
 section {
   max-width: 960px;
   margin: 0 auto;
@@ -137,6 +147,18 @@ section#locations {
   margin: 0 auto;
   padding: 50px 0 50px 0;
   height: 100%;
+}
+
+section#resources {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+  height: 100%;
+}
+
+section#resources li {
+  margin-bottom: .5em;
+  font-family: sans-serif;
 }
 
 .form-cont {
