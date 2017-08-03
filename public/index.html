@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/modules.css">
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/9df1bf3907.js"></script>
   <title>Project Valor</title>
 </head>
 
@@ -21,6 +23,7 @@
       <img src="styles/assets/valor-logo.png" />
     </div>
     <nav class="main-nav">
+      <div class="fa fa-bars icon-menu"></div>
       <ul id="nav-ul">
         <li class="nav-li">Home</li>
         <li class="nav-li">Mission</li>
@@ -180,7 +183,7 @@
       mapDiv.style.height = isMobile ? '100%' : '300px';
       var map = new google.maps.Map(mapDiv, {
         center: new google.maps.LatLng(46.645405886463365, -120.39406926406252),
-        zoom: 7,
+        zoom: 6,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       });
       map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('googft-legend-open'));
@@ -238,7 +241,7 @@
 
     google.maps.event.addDomListener(window, 'load', initialize);
   </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts/models/counties.js"></script>
   <script src="scripts/vendor/src/anijs.js"></script>
   <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script>
   <script src="scripts/controllers/indexController.js" type="text/javascript"></script>

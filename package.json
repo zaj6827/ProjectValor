@@ -25,6 +25,7 @@
   "homepage": "https://github.com/zaj6827/ProjectValor#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
     "express": "^4.15.3",
     "pg": "^7.0.2"
   }
