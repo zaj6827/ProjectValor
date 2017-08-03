@@ -7,7 +7,6 @@
 }*/
 
 #nav-header {
-  height: 85px;
   width: 100%;
   background-color: #EFEFEF;
   border-bottom: 1px solid #080706;
@@ -15,6 +14,42 @@
   position: fixed;
   z-index: 1;
   opacity: .9;
+  transition: 500ms;
+}
+
+.icon-menu {
+  font-size: 2.5em !important;
+  padding: 25px 30px 15px 0px;
+  float: right;
+}
+
+.main-nav {
+  padding: 0.1em;
+}
+
+.main-nav ul {
+  display: none;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  transition: 500ms;
+}
+
+.main-nav:hover ul {
+  display: block;
+  transition: 500ms;
+}
+
+.nav-li {
+  font-size: 2em;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  padding: 5px 0 5px 45px;
+}
+
+.nav-li:hover {
+  background-color: #D1b280;
+  transition: 500ms;
 }
 
 div#header-logo {
@@ -29,69 +64,42 @@ div#header-logo img {
   border: 1px solid black;
 }
 
-.icon-menu {
-  font-size: 32px !important;
-  float: right;
-}
-
-.main-nav {
-  float: right;
-  margin-right: 15px;
-}
-
-.nav-li {
-  display: inline-block;
-  width: 90px;
-  text-align: center;
-  padding: 15px 15px 15px 15px;
-  margin: 20px 1.5px 15px 1.5px;
-  color: #080706;
-  font-family: helvetica, sans-serif;
-  font-weight: lighter;
-}
-
-.nav-li:hover {
-  background-color: #D1b280;
-  transition: 500ms;
-}
-
-.nav-mobile {
-  display:none; /* Hide from browsers that don't support media queries */
-  cursor:pointer;
-  position:absolute;
-  top:0;
-  right:0;
-  background: #EFEFEF url("assets/nav.svg") no-repeat center center;
-  height:40px;
-  width:40px;
-  border-radius:5px;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .icon-menu {
-    display: none;
+    display: none !important;
   }
 
   .main-nav {
-    padding: .2em .2em .2em 2em;
+    display: block;
+    float: right;
+    margin-right: 15px;
   }
 
   .main-nav ul {
     display: block;
   }
 
-  .main-nav ul li {
-    display: inline;
-    border-bottom: none;
+  .nav-li {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 1.5px 15px 1.5px;
+    color: #080706;
+    font-size: 1em;
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
   }
 
-  .main-nav ul li:hover a {
-    color: #29506D;
+  .nav-li:hover {
+    background-color: #D1b280;
+    transition: 500ms;
+  }
+
+  section {
+    margin-left: 30px;
   }
 }
-
 
 main {
   margin: 0 auto;
