@@ -76,10 +76,17 @@ div#resources-section {
   background-color: #EFEFEF;
 }
 
+div.para1, .para2, .para3{
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
 h3 {
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #B3C100
+  color: #B3C100;
+  font-size: 18pt;
+  font-family: sans-serif;
 }
 section {
   max-width: 960px;
@@ -108,6 +115,7 @@ section#resources {
 
 section#resources li {
   margin-bottom: .5em;
+  font-family: helvetica;
 }
 
 .form-cont {
