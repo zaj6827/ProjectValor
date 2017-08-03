@@ -71,6 +71,16 @@ div#mission-section {
   background-color: #EFEFEF;
 }
 
+div#resources-section {
+  width: 100%;
+  background-color: #EFEFEF;
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #B3C100
+}
 section {
   max-width: 960px;
   margin: 0 auto;
@@ -87,6 +97,17 @@ section#locations {
   margin: 0 auto;
   padding: 50px 0 50px 0;
   height: 100%;
+}
+
+section#resources {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+  height: 100%;
+}
+
+section#resources li {
+  margin-bottom: .5em;
 }
 
 .form-cont {
