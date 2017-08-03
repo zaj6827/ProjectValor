@@ -38,20 +38,26 @@ h2 {
 /*------ Main header space and font ------*/
 
 #main-header {
-  font-size: 120pt;
+  font-size: 10em;
   font-family: helvetica;
+  padding: 200px 0 150px 0;
 }
 
 /*----------------------------------------*/
 
+
+
+/*-------- Map sizing and spacing --------*/
 #googft-mapCanvas {
-  z-index: ;
-  margin-top: 500px;
+  padding: 30px;
   margin: 0 auto;
   height: 100%;
   max-width: 100%;
+  clear: both;
 }
 
 #googft-mapCanvas img {
 	max-width: none !important;
 }
+
+/*----------------------------------------*/
