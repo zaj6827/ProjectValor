@@ -273,3 +273,6 @@ input {
   height: 20px;
   margin-bottom: 3em;
 }
+#resources a {
+  color: #4CB5F5;
+}
