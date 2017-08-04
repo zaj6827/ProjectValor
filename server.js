@@ -17,13 +17,13 @@ app.use(cors())
 //setting up middleware and setting static pages
 app.use(bodyParser.json());
 app.use(express.static('./public'));
-app.get('/products/:id', function (req, res) {
-  res.json({msg: 'This is CORS-enabled for all origins!'})
-})
+// app.get('/products/:id', function (req, res) {
+//   res.json({msg: 'This is CORS-enabled for all origins!'})
+// })
 
-app.listen(80, function () {
-  console.log('CORS-enabled web server listening on port 80')
-})
+// app.listen(80, function () {
+//   console.log('CORS-enabled web server listening on port 80')
+// })
 //routes
 app.get('/about', (req, res) => res.sendFile('about.html', {root: './public'}));
 app.get('/resources', (req, res) => res.sendFile('resources.html', {root: './public'}));
