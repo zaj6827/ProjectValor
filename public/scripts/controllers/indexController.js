@@ -1,34 +1,16 @@
 'use strict';
-(function() {
-  console.log('hey!');
-  // Create mobile element
-  var mobile = document.createElement('div');
-  mobile.className = 'nav-mobile';
-  document.querySelector('.main-nav').appendChild(mobile);
 
-  // hasClass
-  function hasClass(elem, className) {
-    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
-  }
+var app = app || {};
 
-  // toggleClass
-  function toggleClass(elem, className) {
-    var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
-    if (hasClass(elem, className)) {
-      while (newClass.indexOf(' ' + className + ' ') >= 0) {
-        newClass = newClass.replace(' ' + className + ' ', ' ');
-      }
-      elem.className = newClass.replace(/^\s+|\s+$/g, '');
-    } else {
-      elem.className += ' ' + className;
-    }
-  }
+(function(module) {
+  const mainController = {};
 
-  // Mobile nav function
-  var mobileNav = document.querySelector('.nav-mobile');
-  var toggle = document.querySelector('.nav-ul');
-  mobileNav.onclick = function() {
-    toggleClass(this, 'nav-mobile-open');
-    toggleClass(toggle, 'nav-active');
+  mainController.index = () => {
+  // aboutController.initAboutController = function () {
+    $('#about').hide();
+    $('#mission-section').show();
+    $('#locations-section').show();
+    $('#resources-section').show();
   };
-})();
+  module.mainController = mainController;
+})(app);
