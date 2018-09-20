@@ -1,4 +1,4 @@
-# ProjectValor
+# Project Valor
 
 A Veteran Affairs Medical facilities locator app for Washington State veterans. The idea is for users to type in their zip code and the three closest VA hospitals are returned. For each county in WA we also have pop ups displaying veteran stats.
 
