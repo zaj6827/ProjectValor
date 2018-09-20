@@ -2,7 +2,7 @@
 
 A Veteran Affairs Medical facilities locator app for Washington State veterans. The idea is for users to type in their zip code and the three closest VA hospitals are returned. For each county in WA we also have pop ups displaying veteran stats.
 
-This service app was built using the Google Maps API, [Googles Fusion Tables Layers](https://developers.google.com/maps/documentation/javascript/examples/layer-fusiontables-simple), JavaScript, jQuery, Node.js, and Express. 
+This service app was built using the Google Maps API, [Google's Fusion Tables Layers](https://developers.google.com/maps/documentation/javascript/examples/layer-fusiontables-simple), JavaScript, jQuery, Node.js, and Express. 
 
 [projectvalor.herokuapp.com/](projectvalor.herokuapp.com/)
 
